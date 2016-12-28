@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">myFlickr</string>
+    <string name="opendrawer">Open</string>
+    <string name="closedrawer">Close</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="homefrag">HOME FRAGMENT</string>
+    <string name="frag1"> FRAGMENT 1</string>
+    <string name="frag2"> FRAGMENT 2</string>
+    <string name="frag3"> FRAGMENT 3</string>
+    <string name="frag4"> FRAGMENT 4</string>
+    <string name="frag5"> FRAGMENT 5</string>
+    <string name="textHome"> Made by Youssef Rifi, 5A STI ,ASL.</string>
+
+
+    <string name="title_preferences">Application Settings</string>
+    <string-array name="entries">
+        <item>Home</item>
+        <item>Request</item>
+        <item>Titles list</item>
+        <item>Pictures list</item>
+        <item>More details</item>
+        <item>Favourite list</item>
+    </string-array>
+
+    <string-array name="entries_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="entries_r">
+        <item>10 seconds</item>
+        <item>30 seconds</item>
+        <item>1 minute</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+
+    </string-array>
+
+    <string-array name="entries_values_r">
+        <item>10000</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>300000</item>
+        <item>600000</item>
+    </string-array>
+
+
+</resources>

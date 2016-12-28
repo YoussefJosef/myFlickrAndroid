@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <PreferenceCategory
+        android:title="General">
+        <EditTextPreference
+            android:title="CHANGE TAG"
+            android:summary="Put here the TAG that you want. "
+            android:key="tag"
+            android:defaultValue="cars"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Favourite Activity" >
+
+        <ListPreference
+            android:key="favou"
+            android:title="List Activity"
+            android:summary="Select here your favourite Activity."
+            android:entries="@array/entries"
+            android:entryValues="@array/entries_values"
+            android:defaultValue="0"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Auto Refresh" >
+        <ListPreference
+            android:key="refresh"
+            android:title="Auto Refresh"
+            android:summary="Update here the frequency of automatic refresh by minute. [DEFAULT : 10 min ]"
+            android:entries="@array/entries_r"
+            android:entryValues="@array/entries_values_r"
+            android:defaultValue="10000"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,33 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.popia.myflickr.Homefrag">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_gravity="right|bottom"
+        android:text="@string/textHome"></TextView>
+
+    <AnalogClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/analogClock"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="279dp"
+        android:layout_height="93dp"
+        android:id="@+id/textView1"
+        android:layout_gravity="center_horizontal|top"
+        android:text="Welcome !"
+        android:textColor="#0266c8"
+        android:textSize="50dp"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="20dp" />
+
+</FrameLayout>
